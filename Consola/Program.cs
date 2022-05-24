@@ -32,7 +32,7 @@ namespace Consola
                     Console.WriteLine("\nSe produjo un error, no se puede dividir por 0 ");
                     Console.WriteLine("\nERROR TIPO: \n"+ex);
                     Console.ReadKey();
-                    
+                    Console.WriteLine("");
                     
                     Console.WriteLine("¿Desea finalizar el programa?\n 0 para finalizar, n!=0 para continuar");
                     i = int.Parse(Console.ReadLine());
